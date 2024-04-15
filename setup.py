@@ -13,13 +13,13 @@ with open('requirements.txt') as f:
     reqs = f.read().splitlines()
 
 setup(
-    name='atm',
+    name='lbutil',
     version='0.0.1',
-    description="Tools for study of air traffic management",
+    description="Utility functions",
     long_description=readme,
-    author='xikasan',
-    # author_email='',
-    url='https://github.com/xikasan/xtools',
+    author='yoshikawa',
+    author_email='yoshikawa@loutrebleu.com',
+    url='https://github.com/loutrebleu/lbutil',
     license=license,
     packages=find_packages(exclude=('tests', 'docs')),
     install_requires=reqs
